@@ -1,0 +1,32 @@
+{
+  "name": "A",
+  "version": "0.1.0",
+  "summary": "A Module.",
+  "description": "A Module, a module",
+  "homepage": "https://github.com/1604181058@qq.com/A",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1604181058@qq.com": "1604101058@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1604181058@qq.com/A.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "A/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "B_Category": [
+
+    ],
+    "HandyFrame": [
+
+    ]
+  }
+}
