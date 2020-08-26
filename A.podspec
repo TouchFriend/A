@@ -21,12 +21,10 @@ Pod::Spec.new do |s|
 A Module, a module
                        DESC
 
-  s.homepage         = 'https://github.com/1604181058@qq.com/A'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1604181058@qq.com' => '1604101058@qq.com' }
-  s.source           = { :git => 'https://github.com/1604181058@qq.com/A.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/TouchFriend/A'
+  s.license          = { :type => 'Apache', :file => 'LICENSE' }
+  s.author           = { 'cxz' => '1604101058@qq.com' }
+  s.source           = { :git => 'https://github.com/TouchFriend/A.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
@@ -36,7 +34,7 @@ A Module, a module
   #   'A' => ['A/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'A/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'B_Category'
   s.dependency 'HandyFrame'
